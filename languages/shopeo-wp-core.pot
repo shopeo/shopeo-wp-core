@@ -1,0 +1,96 @@
+# Copyright (C) 2022 Shopeo
+# This file is distributed under the GPL2+.
+msgid ""
+msgstr ""
+"Project-Id-Version: SHOPEO WP Core 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shopeo-wp-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-07-04T01:13:21+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: shopeo-wp-core\n"
+
+#. Plugin Name of the plugin
+msgid "SHOPEO WP Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.shopeo.cn"
+msgstr ""
+
+#. Description of the plugin
+msgid "The easy way to customize your WordPress <code>wp-login.php</code> screen!"
+msgstr ""
+
+#. Author of the plugin
+msgid "Shopeo"
+msgstr ""
+
+#: includes/admin-style.php:39
+msgid "Technical support by <a target=\"_blank\" href=\"%s\">SHOPEO</a>."
+msgstr ""
+
+#: includes/admin-style.php:40
+msgid "https://www.shopeo.cn/"
+msgstr ""
+
+#: includes/admin-style.php:51
+msgid "SHOPEO %1$s running %2$s theme."
+msgstr ""
+
+#: includes/admin-style.php:75
+#: includes/admin-style.php:84
+msgid "About SHOPEO"
+msgstr ""
+
+#: includes/admin-style.php:99
+msgid "shopeo.cn"
+msgstr ""
+
+#: includes/admin-style.php:125
+msgid "Welcome to SHOPEO!"
+msgstr ""
+
+#: includes/admin-style.php:128
+msgid "Website Development plan, Search Engine Optimization, Company Registration."
+msgstr ""
+
+#: includes/admin-style.php:135
+msgid "Website Development"
+msgstr ""
+
+#: includes/admin-style.php:136
+msgid "Create an exclusive brand that truly meets the needs of the enterprise, has unique charm and is easy to spread in the data age, and creates a high-quality website dedicated to the enterprise."
+msgstr ""
+
+#: includes/admin-style.php:138
+#: includes/admin-style.php:147
+#: includes/admin-style.php:156
+msgid "View Service"
+msgstr ""
+
+#: includes/admin-style.php:144
+msgid "Search Engine Optimization"
+msgstr ""
+
+#: includes/admin-style.php:145
+msgid "Years of online marketing experience to help you build sustainable brand planning and business strategies, from brand development and creative planning to SEO optimization."
+msgstr ""
+
+#: includes/admin-style.php:153
+msgid "Company Registration"
+msgstr ""
+
+#: includes/admin-style.php:154
+msgid "Provide comprehensive accounting, tax and financial planning services, and provide overseas company registration services for Chinese enterprises and individuals."
+msgstr ""
+
+#: includes/admin-style.php:185
+#: includes/admin-style.php:198
+msgid "SHOPEO Blog"
+msgstr ""
