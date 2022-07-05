@@ -55,5 +55,5 @@ if ( ! function_exists( 'shopeo_wp_core_load_textdomain' ) ) {
 
 add_action( 'init', 'shopeo_wp_core_load_textdomain' );
 
-require_once "includes/login-style.php";
-require_once "includes/admin-style.php";
+require_once __DIR__ . "/includes/login-style.php";
+require_once __DIR__ . "/includes/admin-style.php";
