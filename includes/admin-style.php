@@ -181,7 +181,7 @@ if ( ! function_exists( 'shopeo_blog_widget' ) ) {
 		$feeds = array(
 				'blog' => array(
 						'link'         => 'https://www.shopeo.cn',
-						'url'          => 'https://www.shopeo.cn/feed/',
+						'url'          => 'https://www.shopeo.cn/feed/?' . time(),
 						'title'        => __( 'SHOPEO Blog', 'shopeo-wp-core' ),
 						'items'        => 10,
 						'show_summary' => 0,

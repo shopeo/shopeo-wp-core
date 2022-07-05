@@ -7,11 +7,11 @@
 	height: 20px;
 }
 
-.components-button.edit-site-navigation-toggle__button:before, .components-button.edit-post-fullscreen-mode-close:before {
+.components-button.edit-site-navigation-toggle__button:before, .components-button.edit-post-fullscreen-mode-close:before, .components-site-card {
 	background: url("../images/icon_white.svg") center center no-repeat;
 	background-size: contain;
 }
 
-.components-button.edit-site-navigation-toggle__button svg, .components-button.edit-post-fullscreen-mode-close svg {
+.components-button.edit-site-navigation-toggle__button svg, .components-button.edit-post-fullscreen-mode-close svg, .components-site-card svg {
 	display: none;
 }
