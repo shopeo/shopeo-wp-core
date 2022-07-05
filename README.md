@@ -12,3 +12,4 @@ Custom Admin
 - [x] Change Login Page Logo
 - [x] Add Shopeo Welcome Panel
 - [x] Add Shopeo Event and News
+- [x] Fix Block Logo
