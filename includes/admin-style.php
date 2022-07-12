@@ -37,7 +37,7 @@ if ( ! function_exists( 'shopeo_wp_core_custom_admin_footer_text' ) ) {
 	function shopeo_wp_core_custom_admin_footer_text( $text ) {
 		$text = sprintf(
 				__( 'Technical support by <a target="_blank" href="%s">SHOPEO</a>.', 'shopeo-wp-core' ),
-				__( 'https://www.shopeo.cn/', 'shopeo-wp-core' )
+				'https://www.shopeo.cn/'
 		);
 
 		return '<span id="footer-thankyou">' . $text . '</span>';
@@ -96,7 +96,7 @@ if ( ! function_exists( 'shopeo_wp_core_add_shopeo_tool_bar' ) ) {
 		$wp_admin_bar->add_node( array(
 				'parent' => 'shopeo-bar-external',
 				'id'     => 'shopeo_website',
-				'title'  => __( 'shopeo.cn', 'shopeo-wp-core' ),
+				'title'  => 'shopeo.cn',
 				'href'   => 'https://www.shopeo.cn'
 		) );
 	}
