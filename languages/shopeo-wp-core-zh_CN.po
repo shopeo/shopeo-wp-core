@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SHOPEO WP Core 0.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/shopeo-wp-core\n"
-"POT-Creation-Date: 2022-07-12T13:44:35+08:00\n"
-"PO-Revision-Date: 2022-07-12 16:13+0800\n"
+"POT-Creation-Date: 2022-09-03T11:17:11+08:00\n"
+"PO-Revision-Date: 2022-09-03 11:21+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -35,7 +35,7 @@ msgid "Shopeo"
 msgstr "SHOPEO"
 
 #: includes/admin-style.php:39
-msgid "Technical support by <a target=\"_blank\" href=\"%s\">SHOPEO</a>."
+msgid "Powered by <a target=\"_blank\" href=\"%s\">SHOPEO</a>."
 msgstr "由 <a target=\"_blank\" href=\"%s\">SHOPEO</a> 提供技术支持。"
 
 #: includes/admin-style.php:51

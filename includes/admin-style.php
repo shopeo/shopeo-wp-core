@@ -36,7 +36,7 @@ add_filter( 'admin_title', 'shopeo_wp_core_custom_admin_title' );
 if ( ! function_exists( 'shopeo_wp_core_custom_admin_footer_text' ) ) {
 	function shopeo_wp_core_custom_admin_footer_text( $text ) {
 		$text = sprintf(
-				__( 'Technical support by <a target="_blank" href="%s">SHOPEO</a>.', 'shopeo-wp-core' ),
+				__( 'Powered by <a target="_blank" href="%s">SHOPEO</a>.', 'shopeo-wp-core' ),
 				'https://www.shopeo.cn/'
 		);
 
