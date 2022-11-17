@@ -37,7 +37,7 @@ if ( ! function_exists( 'shopeo_wp_core_custom_admin_footer_text' ) ) {
 	function shopeo_wp_core_custom_admin_footer_text( $text ) {
 		$text = sprintf(
 				__( 'Powered by <a target="_blank" href="%s">SHOPEO</a>.', 'shopeo-wp-core' ),
-				'https://www.shopeo.cn/'
+				'https://shopeo.cn/'
 		);
 
 		return '<span id="footer-thankyou">' . $text . '</span>';
@@ -73,7 +73,7 @@ if ( ! function_exists( 'shopeo_wp_core_add_shopeo_tool_bar' ) ) {
 		$wp_logo_menu_args = array(
 				'id'    => 'shopeo_bar',
 				'title' => '<span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">' . __( 'About SHOPEO', 'shopeo-wp-core' ) . '</span>',
-				'href'  => 'https://www.shopeo.cn'
+				'href'  => 'https://shopeo.cn'
 		);
 
 		$wp_admin_bar->add_node( $wp_logo_menu_args );
@@ -82,7 +82,7 @@ if ( ! function_exists( 'shopeo_wp_core_add_shopeo_tool_bar' ) ) {
 				'parent' => 'shopeo_bar',
 				'id'     => 'shopeo_about_bar',
 				'title'  => __( 'About SHOPEO', 'shopeo-wp-core' ),
-				'href'   => 'https://www.shopeo.cn'
+				'href'   => 'https://shopeo.cn'
 		) );
 
 		$wp_admin_bar->add_group( array(
@@ -97,7 +97,7 @@ if ( ! function_exists( 'shopeo_wp_core_add_shopeo_tool_bar' ) ) {
 				'parent' => 'shopeo-bar-external',
 				'id'     => 'shopeo_website',
 				'title'  => 'shopeo.cn',
-				'href'   => 'https://www.shopeo.cn'
+				'href'   => 'https://shopeo.cn'
 		) );
 	}
 }
@@ -125,7 +125,7 @@ if ( ! function_exists( 'shopeo_wp_core_welcome_panel' ) ) {
 				<h2><?php _e( 'Welcome to SHOPEO!', 'shopeo-wp-core' ); ?></h2>
 				<p>
 					<a target="_blank"
-					   href="https://www.shopeo.cn"><?php _e( 'Website Development plan, Search Engine Optimization, Company Registration.', 'shopeo-wp-core' ); ?></a>
+					   href="https://shopeo.cn"><?php _e( 'Website Development plan, Search Engine Optimization, Company Registration.', 'shopeo-wp-core' ); ?></a>
 				</p>
 			</div>
 			<div class="welcome-panel-column-container">
@@ -135,7 +135,7 @@ if ( ! function_exists( 'shopeo_wp_core_welcome_panel' ) ) {
 						<h3><?php _e( 'Website Development', 'shopeo-wp-core' ); ?></h3>
 						<p><?php _e( 'Create an exclusive brand that truly meets the needs of the enterprise, has unique charm and is easy to spread in the data age, and creates a high-quality website dedicated to the enterprise.', 'shopeo-wp-core' ); ?></p>
 						<a target="_blank"
-						   href="https://www.shopeo.cn"><?php _e( 'View Service', 'shopeo-wp-core' ); ?></a>
+						   href="https://shopeo.cn"><?php _e( 'View Service', 'shopeo-wp-core' ); ?></a>
 					</div>
 				</div>
 				<div class="welcome-panel-column">
@@ -144,7 +144,7 @@ if ( ! function_exists( 'shopeo_wp_core_welcome_panel' ) ) {
 						<h3><?php _e( 'Search Engine Optimization', 'shopeo-wp-core' ); ?></h3>
 						<p><?php _e( 'Years of online marketing experience to help you build sustainable brand planning and business strategies, from brand development and creative planning to SEO optimization.', 'shopeo-wp-core' ); ?></p>
 						<a target="_blank"
-						   href="https://www.shopeo.cn"><?php _e( 'View Service', 'shopeo-wp-core' ); ?></a>
+						   href="https://shopeo.cn"><?php _e( 'View Service', 'shopeo-wp-core' ); ?></a>
 					</div>
 				</div>
 				<div class="welcome-panel-column">
@@ -153,7 +153,7 @@ if ( ! function_exists( 'shopeo_wp_core_welcome_panel' ) ) {
 						<h3><?php _e( 'Company Registration', 'shopeo-wp-core' ); ?></h3>
 						<p><?php _e( 'Provide comprehensive accounting, tax and financial planning services, and provide overseas company registration services for Chinese enterprises and individuals.', 'shopeo-wp-core' ); ?></p>
 						<a target="_blank"
-						   href="https://www.shopeo.cn"><?php _e( 'View Service', 'shopeo-wp-core' ); ?></a>
+						   href="https://shopeo.cn"><?php _e( 'View Service', 'shopeo-wp-core' ); ?></a>
 					</div>
 				</div>
 			</div>
@@ -180,8 +180,8 @@ if ( ! function_exists( 'shopeo_blog_widget' ) ) {
 	function shopeo_blog_widget() {
 		$feeds = array(
 				'blog' => array(
-						'link'         => 'https://www.shopeo.cn',
-						'url'          => 'https://www.shopeo.cn/feed/?' . time(),
+						'link'         => 'https://shopeo.cn',
+						'url'          => 'https://shopeo.cn/feed/?' . time(),
 						'title'        => __( 'SHOPEO Blog', 'shopeo-wp-core' ),
 						'items'        => 10,
 						'show_summary' => 0,

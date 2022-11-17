@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-09-03T11:17:11+08:00\n"
+"POT-Creation-Date: 2022-11-18T00:41:21+08:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: shopeo-wp-core\n"
@@ -19,8 +19,7 @@ msgid "SHOPEO WP Core"
 msgstr ""
 
 #. Plugin URI of the plugin
-#. Author URI of the plugin
-msgid "https://www.shopeo.cn"
+msgid "https://wordpress.org/plugins/shopeo-wp-core"
 msgstr ""
 
 #. Description of the plugin
@@ -29,6 +28,10 @@ msgstr ""
 
 #. Author of the plugin
 msgid "Shopeo"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://shopeo.cn"
 msgstr ""
 
 #: includes/admin-style.php:39
