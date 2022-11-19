@@ -4,7 +4,7 @@
  * Plugin URI: https://wordpress.org/plugins/shopeo-wp-core
  * Description: The easy way to customize your WordPress <code>wp-login.php</code> screen!
  * Author: Shopeo
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author URI: https://shopeo.cn
  * License: GPL2+
  * Text Domain: shopeo-wp-core
